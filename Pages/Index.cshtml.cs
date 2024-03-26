@@ -1,19 +1,23 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using System;
 
-namespace Library.Pages;
-
-public class IndexModel : PageModel
-{
-    private readonly ILogger<IndexModel> _logger;
-
-    public IndexModel(ILogger<IndexModel> logger)
+namespace Library.Pages {
+    public class IndexModel : PageModel
     {
-        _logger = logger;
-    }
+        public string[] Items { get; set; }
+        public string[] OtherItems { get; set; }
+        public string[] Friends { get; set; }
 
-    public void OnGet()
-    {
+        public IndexModel()
+        {
+            Items = new string[] {"Apples", "Pears", "Bananas"};
+            OtherItems = new string[] {"Pokemon", "Call of Duty", "BattleField"};
+            Friends = new string[] {"Birdy", "Alex", "Kelly"};
+        }
 
+        public void OnGet(string name)
+        {
+        }
     }
 }

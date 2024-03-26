@@ -1,5 +1,5 @@
-﻿@page
-@model IndexModel
+@page
+@model CheckedOutModel
 
 <!doctype html>
 <html lang="en">
@@ -25,14 +25,14 @@
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" asp-page="/">Home <span class="sr-only">(current)</span></a>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-page="/Index">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" asp-page="/Available">Available</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" asp-page="/CheckedOut">Checked Out</a>
+                            <li class="nav-item active">
+                                <a class="nav-link" asp-page="/">Checked Out<span class="sr-only">(current)</span></a>
                             </li>
                             @* Eventually add some sort of basket selectable. *@
                         </ul>
@@ -47,11 +47,36 @@
         </div>
     </div>
 
-
-    @* <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script> *@
+<div class="container">
+        <div class="row">
+            <div class="col">
+                <ul>
+                    @foreach (Models.Book book in @Model.CheckedOutBooks) {
+                        <li>@book.Name</li>
+                    }
+                </ul>
+            </div>
+            <div class="col">
+                <ul>
+                    @foreach (Models.Book book in @Model.CheckedOutBooks) {
+                        <li>@book.Year</li>
+                    }
+                </ul>
+            </div>
+            <div class="col">
+                <ul>
+                    @foreach (Models.Book book in @Model.CheckedOutBooks) {
+                        <li>@book.Author</li>
+                    }
+                </ul>
+            </div>
+            <div class="col">
+                <ul>
+                    @foreach (Models.Book book in @Model.CheckedOutBooks) {
+                        <li>@book.CheckedOut</li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
   </body>
-</html>

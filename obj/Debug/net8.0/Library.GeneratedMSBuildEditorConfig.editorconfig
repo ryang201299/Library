@@ -18,16 +18,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ryang\Documents\Coding\Projects\Dotnet\ASP.NET\Library
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ryang/Documents/Coding/Projects/Dotnet/ASP.NET/Library/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+[C:/Users/ryang/Documents/Coding/Projects/Dotnet/ASP.NET/Library/Pages/Available.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXZhaWxhYmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ryang/Documents/Coding/Projects/Dotnet/ASP.NET/Library/Pages/CheckedOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tlZE91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ryang/Documents/Coding/Projects/Dotnet/ASP.NET/Library/Pages/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ryang/Documents/Coding/Projects/Dotnet/ASP.NET/Library/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ryang/Documents/Coding/Projects/Dotnet/ASP.NET/Library/Pages/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ryang/Documents/Coding/Projects/Dotnet/ASP.NET/Library/Pages/Shared/_ValidationScriptsPartial.cshtml]
