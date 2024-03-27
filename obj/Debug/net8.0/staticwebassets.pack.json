@@ -5,6 +5,30 @@
       "PackagePath": "staticwebassets\\Library.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\ryang\\Documents\\Coding\\Projects\\Dotnet\\ASP.NET\\Library\\wwwroot\\Images\\1984.jpg",
+      "PackagePath": "staticwebassets\\Images\\1984.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ryang\\Documents\\Coding\\Projects\\Dotnet\\ASP.NET\\Library\\wwwroot\\Images\\CatcherInTheRye.jpg",
+      "PackagePath": "staticwebassets\\Images\\CatcherInTheRye.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ryang\\Documents\\Coding\\Projects\\Dotnet\\ASP.NET\\Library\\wwwroot\\Images\\Gatsby.jpg",
+      "PackagePath": "staticwebassets\\Images\\Gatsby.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ryang\\Documents\\Coding\\Projects\\Dotnet\\ASP.NET\\Library\\wwwroot\\Images\\KillMockingBird.jpg",
+      "PackagePath": "staticwebassets\\Images\\KillMockingBird.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ryang\\Documents\\Coding\\Projects\\Dotnet\\ASP.NET\\Library\\wwwroot\\Images\\LordOfTheRings.jpg",
+      "PackagePath": "staticwebassets\\Images\\LordOfTheRings.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ryang\\Documents\\Coding\\Projects\\Dotnet\\ASP.NET\\Library\\wwwroot\\Images\\PrideAndPred.jpg",
+      "PackagePath": "staticwebassets\\Images\\PrideAndPred.jpg"
+    },
+    {
       "Id": "C:\\Users\\ryang\\Documents\\Coding\\Projects\\Dotnet\\ASP.NET\\Library\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
