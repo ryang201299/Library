@@ -1,1 +1,38 @@
-﻿
+﻿@{
+    string currentPage = Context.Request.Path.Value.Split('/').LastOrDefault();
+}
+
+<div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" asp-page="/Index">Library</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class='nav-item @(currentPage == "" ? "active" : "")'>
+                                <a class="nav-link" asp-page="/Index">Home</a>
+                            </li>
+                            <li class='nav-item @(currentPage == "Available" ? "active" : "")'>
+                                <a class="nav-link" asp-page="/Available">Available</a>
+                            </li>
+                            <li class='nav-item @(currentPage == "CheckedOut" ? "active" : "")'>
+                                <a class="nav-link" asp-page="/CheckedOut">Checked Out</a>
+                            </li>
+                            @* Eventually add some sort of basket selectable. *@
+                        </ul>
+
+                        @* Below form will search all books available or not, and present the status of the book. *@
+                        <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+@RenderBody()

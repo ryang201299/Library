@@ -5,10 +5,10 @@ using Library.Models;
 
 namespace Library.Pages {
     public class AvailableModel : PageModel {
-        public List<Book> AvailableBooks { get; set; }
+        public List<Book> Books { get; set; }
         
         public AvailableModel() {
-            this.AvailableBooks = new List<Book> {
+            this.Books = new List<Book> {
                 new Book(1, DateTime.Now, "Harry Potter", "Some Author"),
                 new Book(2, DateTime.Now, "Starwars", "Some other author"),
                 new Book(3, DateTime.Now, "Winnie the pooh", "rando McGee")
@@ -16,7 +16,6 @@ namespace Library.Pages {
         }
 
         public void OnGet() {
-            
         }
     }
 }

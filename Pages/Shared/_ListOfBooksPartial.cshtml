@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <ul>
+                @foreach (Models.Book book in @Model.Books) {
+                    <li>@book.Name</li>
+                }
+            </ul>
+        </div>
+        <div class="col">
+            <ul>
+                @foreach (Models.Book book in @Model.Books) {
+                    <li>@book.Year</li>
+                }
+            </ul>
+        </div>
+        <div class="col">
+            <ul>
+                @foreach (Models.Book book in @Model.Books) {
+                    <li>@book.Author</li>
+                }
+            </ul>
+        </div>
+        <div class="col">
+            <ul>
+                @foreach (Models.Book book in @Model.Books) {
+                    <li>@book.CheckedOut</li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>
