@@ -9,51 +9,51 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Library
 build_property.RootNamespace = Library
-build_property.ProjectDir = C:\Users\ryang\Documents\Coding\Projects\Dotnet\ASP.NET\Library\
+build_property.ProjectDir = C:\Users\ryang\Documents\Coding\Projects\Dotnet\ASP.NET\library\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ryang\Documents\Coding\Projects\Dotnet\ASP.NET\Library
+build_property.MSBuildProjectDirectory = C:\Users\ryang\Documents\Coding\Projects\Dotnet\ASP.NET\library
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ryang/Documents/Coding/Projects/Dotnet/ASP.NET/Library/Pages/Available.cshtml]
+[C:/Users/ryang/Documents/Coding/Projects/Dotnet/ASP.NET/library/Pages/Available.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXZhaWxhYmxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ryang/Documents/Coding/Projects/Dotnet/ASP.NET/Library/Pages/BookDetails.cshtml]
+[C:/Users/ryang/Documents/Coding/Projects/Dotnet/ASP.NET/library/Pages/BookDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ryang/Documents/Coding/Projects/Dotnet/ASP.NET/Library/Pages/CheckedOut.cshtml]
+[C:/Users/ryang/Documents/Coding/Projects/Dotnet/ASP.NET/library/Pages/CheckedOut.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tlZE91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ryang/Documents/Coding/Projects/Dotnet/ASP.NET/Library/Pages/Home.cshtml]
+[C:/Users/ryang/Documents/Coding/Projects/Dotnet/ASP.NET/library/Pages/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ryang/Documents/Coding/Projects/Dotnet/ASP.NET/Library/Pages/Index.cshtml]
+[C:/Users/ryang/Documents/Coding/Projects/Dotnet/ASP.NET/library/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ryang/Documents/Coding/Projects/Dotnet/ASP.NET/Library/Pages/Shared/_ListOfBooksPartial.cshtml]
+[C:/Users/ryang/Documents/Coding/Projects/Dotnet/ASP.NET/library/Pages/Shared/_ListOfBooksPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MaXN0T2ZCb29rc1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ryang/Documents/Coding/Projects/Dotnet/ASP.NET/Library/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ryang/Documents/Coding/Projects/Dotnet/ASP.NET/library/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ryang/Documents/Coding/Projects/Dotnet/ASP.NET/Library/Pages/_ViewImports.cshtml]
+[C:/Users/ryang/Documents/Coding/Projects/Dotnet/ASP.NET/library/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ryang/Documents/Coding/Projects/Dotnet/ASP.NET/Library/Pages/_ViewStart.cshtml]
+[C:/Users/ryang/Documents/Coding/Projects/Dotnet/ASP.NET/library/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ryang/Documents/Coding/Projects/Dotnet/ASP.NET/Library/Pages/Shared/_Layout.cshtml]
+[C:/Users/ryang/Documents/Coding/Projects/Dotnet/ASP.NET/library/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-82u3rjkrdq

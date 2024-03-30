@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ryang\\Documents\\Coding\\Projects\\Dotnet\\ASP.NET\\Library\\Library.csproj": {}
+    "C:\\Users\\ryang\\Documents\\Coding\\Projects\\Dotnet\\ASP.NET\\library\\Library.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ryang\\Documents\\Coding\\Projects\\Dotnet\\ASP.NET\\Library\\Library.csproj": {
+    "C:\\Users\\ryang\\Documents\\Coding\\Projects\\Dotnet\\ASP.NET\\library\\Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ryang\\Documents\\Coding\\Projects\\Dotnet\\ASP.NET\\Library\\Library.csproj",
+        "projectUniqueName": "C:\\Users\\ryang\\Documents\\Coding\\Projects\\Dotnet\\ASP.NET\\library\\Library.csproj",
         "projectName": "Library",
-        "projectPath": "C:\\Users\\ryang\\Documents\\Coding\\Projects\\Dotnet\\ASP.NET\\Library\\Library.csproj",
+        "projectPath": "C:\\Users\\ryang\\Documents\\Coding\\Projects\\Dotnet\\ASP.NET\\library\\Library.csproj",
         "packagesPath": "C:\\Users\\ryang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ryang\\Documents\\Coding\\Projects\\Dotnet\\ASP.NET\\Library\\obj\\",
+        "outputPath": "C:\\Users\\ryang\\Documents\\Coding\\Projects\\Dotnet\\ASP.NET\\library\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ryang\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,24 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
