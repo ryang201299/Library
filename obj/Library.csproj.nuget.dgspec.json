@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ryang\\Documents\\Coding\\Projects\\Dotnet\\ASP.NET\\library\\Library.csproj": {}
+    "C:\\Users\\ryang\\Documents\\Coding\\Projects\\Dotnet\\ASP.NET\\Library\\Library.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ryang\\Documents\\Coding\\Projects\\Dotnet\\ASP.NET\\library\\Library.csproj": {
+    "C:\\Users\\ryang\\Documents\\Coding\\Projects\\Dotnet\\ASP.NET\\Library\\Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ryang\\Documents\\Coding\\Projects\\Dotnet\\ASP.NET\\library\\Library.csproj",
+        "projectUniqueName": "C:\\Users\\ryang\\Documents\\Coding\\Projects\\Dotnet\\ASP.NET\\Library\\Library.csproj",
         "projectName": "Library",
-        "projectPath": "C:\\Users\\ryang\\Documents\\Coding\\Projects\\Dotnet\\ASP.NET\\library\\Library.csproj",
+        "projectPath": "C:\\Users\\ryang\\Documents\\Coding\\Projects\\Dotnet\\ASP.NET\\Library\\Library.csproj",
         "packagesPath": "C:\\Users\\ryang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ryang\\Documents\\Coding\\Projects\\Dotnet\\ASP.NET\\library\\obj\\",
+        "outputPath": "C:\\Users\\ryang\\Documents\\Coding\\Projects\\Dotnet\\ASP.NET\\Library\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ryang\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,6 +51,10 @@
               "target": "Package",
               "version": "[8.0.3, )"
             },
+            "Microsoft.EntityFrameworkCore.SQLServer": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore.SQLite": {
               "target": "Package",
               "version": "[8.0.3, )"
@@ -60,6 +64,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
             }
           },
           "imports": [
