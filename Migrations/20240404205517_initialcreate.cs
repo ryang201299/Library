@@ -33,10 +33,9 @@ namespace Library.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Year = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    ShortDescription = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    ShortDescription = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     LongDescription = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Image = table.Column<byte[]>(type: "varbinary(max)", nullable: true),
-                    ImageLocation = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    ImageLocation = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Author = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CheckedOut = table.Column<bool>(type: "bit", nullable: false),
                     CheckedOutById = table.Column<int>(type: "int", nullable: true)

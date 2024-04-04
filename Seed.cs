@@ -78,14 +78,13 @@ namespace Library {
 
         private void SeedBooks() {
             var books = new List<Book> {
-                new Book(1, DateTime.Today, "book1", "author1"),
-                new Book(2, DateTime.Today, "book2", "author2")
+                new Book(1, DateTime.Now, "1984", "Some Author", "/Images/1984.jpg", "Fiction. Old. Classic. Loved."),
+                new Book(2, DateTime.Now, "Catcher In The Rye", "Some other author", "/Images/CatcherInTheRye.jpg", "Some short description."),
+                new Book(3, DateTime.Now, "The Great Gatsby", "rando McGee", "/Images/Gatsby.jpg", "Some short description."),
+                new Book(4, DateTime.Now, "To Kill A Mockingbird", "Someone else", "/Images/KillMockingBird.jpg", "Some short description."),
+                new Book(5, DateTime.Now, "Lord Of The Rings", "rando McGee", "/Images/LordOfTheRings.jpg", "Some short description."),
+                new Book(6, DateTime.Now, "Pride and Predjudice", "rande", "/Images/PrideAndPred.jpg", "Some short description.")
             };
-
-            foreach (Book book in books) {
-                Console.WriteLine("New book insertion ---------------------------");
-                Console.WriteLine($"Id: {book.Id}, Year: {book.Year.ToString()}, Name: {book.Name}, sDesc: {book.ShortDescription}, lDesc: {book.LongDescription}, image: {book.Image}, imgL: {book.ImageLocation}, author: {book.Author}, CheckedOut: {book.CheckedOut}, checkedOutBy: {book.CheckedOutById}");
-            }
 
             using (var connection = new SqlConnection(ConnectionString)) {
                 connection.Open();
@@ -94,11 +93,13 @@ namespace Library {
                 enableIdentityInsertCommand.ExecuteNonQuery();
 
                 foreach(var book in books) {
-                    var command = new SqlCommand("INSERT INTO Books (Id, Year, Name, Author, CheckedOut) VALUES (@Id, @Year, @Name, @Author, @CheckedOut)", connection);
+                    var command = new SqlCommand("INSERT INTO Books (Id, Year, Name, Author, ImageLocation, ShortDescription, CheckedOut) VALUES (@Id, @Year, @Name, @Author, @ImageLocation, @ShortDescription, @CheckedOut)", connection);
                     command.Parameters.AddWithValue("@Id", book.Id);
                     command.Parameters.AddWithValue("@Year", book.Year);
                     command.Parameters.AddWithValue("@Name", book.Name);
                     command.Parameters.AddWithValue("@Author", book.Author);
+                    command.Parameters.AddWithValue("@ImageLocation", book.ImageLocation);
+                    command.Parameters.AddWithValue("@ShortDescription", book.ShortDescription);
                     command.Parameters.AddWithValue("@CheckedOut", book.CheckedOut);
                     command.ExecuteNonQuery();
                 }
